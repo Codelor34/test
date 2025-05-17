@@ -7,6 +7,7 @@ namespace test.Controllers
         public IActionResult Index()
         {
             return View();
+            Console.WriteLine("Phuc");
         }
     }
 }
